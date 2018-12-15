@@ -1,0 +1,5 @@
+[book]
+title = "Ответы на экзаменационные вопросы [ИИ, Новакова, 2018]"
+authors = ["Deligor"]
+multilingual = false
+src = "src"
