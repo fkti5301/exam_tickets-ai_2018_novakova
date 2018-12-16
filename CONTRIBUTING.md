@@ -82,7 +82,10 @@ PS: Создание своих "девелоперских" веток, в ко
 
 **Пример заполнения билета:**
 
-* [Исходник](SAMPLE.md)
+* [Исходник](src/tickets/0.md)
+*(нажимаем raw, чтобы увидеть, как оно выглядит внутри)*
+
+* [Так это выглядит после рендеринга](https://fkti5301.github.io/exam_tickets-ai_2018_novakova/tickets/0.html)
 
 
 # Полезные ссылки
@@ -126,4 +129,6 @@ PS: Создание своих "девелоперских" веток, в ко
 
 * [MathJax в mdBook](https://rust-lang-nursery.github.io/mdBook/format/mathjax.html)
 
-* [Синтаксис кратко](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
+* [LaTeX Cheatsheet](https://wch.github.io/latexsheet/)
+
+* [Синтаксис LaTeX кратко](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
