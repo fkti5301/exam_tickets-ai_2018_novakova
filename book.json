@@ -1,0 +1,18 @@
+{
+    "gitbook": "3.x.x",
+
+    "title" : "Ответы на экзаменационные вопросы [ИИ, Новакова, 2018]",
+
+    "plugins" : ["mathjax"],
+
+    "root" : "src/",
+    "structure": {
+      "readme" : "INTRODUCTION.md"
+    },
+
+    "pdf": {
+        "fontFamily" : "Times New Roman",
+        "fontSize": 12
+    }
+
+}

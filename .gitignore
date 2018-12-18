@@ -1,3 +1,17 @@
+### Node rules:
+.grunt
+
+### Dependency directory
+node_modules
+
+### GitBook ###
+_book
+
+### eBook build output
+*.epub
+*.mobi
+*.pdf
+
 ### mdBook ###
 book
 *.html
@@ -13,4 +27,3 @@ Session.vim
 *~
 tags
 [._]*.un~
-
