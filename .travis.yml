@@ -10,6 +10,8 @@ node_js:
 before_install:
   - sudo apt-get -qq update
   - sudo apt-get install -y calibre
+  # Dirty hack to make gitbook's pdf generation work on a headless server
+  - sudo mv ebook-convert /usr/local/bin/
 
 install:
   - npm install gitbook-cli -g
