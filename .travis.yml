@@ -7,6 +7,10 @@ cache:
 node_js:
   - "9"
 
+branches:
+  only:
+    - master
+
 before_install:
   - sudo apt-get -qq update
   - sudo apt-get install -y calibre
@@ -19,6 +23,13 @@ install:
 
 script:
   - cd ./ && gitbook build && gitbook pdf
+
+before_deploy:
+  # Set up git user name and tag this commit
+  - git config --local user.name "Deligor"
+  - git config --local user.email "deligor6321@gmail.com"
+  - export TRAVIS_TAG=pdf-release
+  - git tag -f $TRAVIS_TAG
 
 deploy:
   - provider: pages
