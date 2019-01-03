@@ -1,25 +1,25 @@
-language: rust
+language: node_js
 sudo: false
 
 cache:
-  - cargo
+  - npm
 
-rust:
-  - stable
+node_js:
+  - "9"
 
 before_script:
-  - (test -x $HOME/.cargo/bin/cargo-install-update || cargo install cargo-update)
-  - (test -x $HOME/.cargo/bin/mdbook || cargo install --vers "^0.1" mdbook)
-  - cargo install-update -a
+  - npm install gitbook-cli -g
+  - gitbook fetch latest
+  - gitbook install
 
 script:
-  - cd ./ && mdbook build && mdbook test
+  - cd ./ && gitbook build
 
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
-  local-dir: ./book
+  local-dir: ./_book
   keep-history: false
   on:
     branch: master
