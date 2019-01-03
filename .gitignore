@@ -12,10 +12,6 @@ _book
 *.mobi
 *.pdf
 
-### mdBook ###
-book
-*.html
-
 ### Vim ###
 .vimrc
 [._]*.s[a-v][a-z]
