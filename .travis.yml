@@ -1,5 +1,5 @@
 language: node_js
-sudo: false
+sudo: required
 
 cache:
   - npm
@@ -7,9 +7,12 @@ cache:
 node_js:
   - "9"
 
-before_script:
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y calibre
+
+install:
   - npm install gitbook-cli -g
-  - gitbook fetch latest
   - gitbook install
 
 script:
