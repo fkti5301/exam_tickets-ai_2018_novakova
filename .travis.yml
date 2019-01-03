@@ -13,7 +13,7 @@ before_script:
   - gitbook install
 
 script:
-  - cd ./ && gitbook build
+  - cd ./ && gitbook build && gitbook pdf
 
 deploy:
   - provider: pages
