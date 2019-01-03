@@ -3,7 +3,7 @@
 
     "title" : "Ответы на экзаменационные вопросы [ИИ, Новакова, 2018]",
 
-    "plugins" : ["mathjax"],
+    "plugins" : ["katex"],
 
     "root" : "src/",
     "structure": {
