@@ -45,5 +45,4 @@ deploy:
     skip_cleanup: true
     overwrite: true
     on:
-      tags: false
       branch: master
