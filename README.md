@@ -12,8 +12,6 @@
 
 [Скачать книжку](https://github.com/fkti5301/exam_tickets-ai_2018_novakova/releases)
 
-[Инструкции по заполнению](CONTRIBUTING.md)
-
 [Онлайн версия](https://fkti5301.github.io/exam_tickets-ai_2018_novakova/index.html)
 
 ![logo](src/resources/imgs/logo.jpg)
